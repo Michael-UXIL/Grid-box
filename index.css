@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: hsl(0, 0%, 95%);
+   display: flex;
+    place-items: center;
+    min-height: 100vh;
+    width: 50%;
+    margin: auto;
+}
+main{
+    display: grid;
+    grid-template-areas: " a  b  c";
+}
+main{
+padding: 2em;
+text-align: center;
+
+}
+
+.boxcontent1{
+    background-color: hsl(31, 77%, 52%);
+    grid-area: a;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+
+}
+.boxcontent2{
+    background-color: hsl(184, 100%, 22%);
+    grid-area: b;
+    }
+.boxcontent3{
+    background-color: hsl(179, 100%, 13%);
+    grid-area: c;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+h1{
+    color: hsl(0,0%, 95%);
+    text-transform: uppercase;
+    Family: [Lexend Deca](https://fonts.google.com/specimen/Lexend+Deca)
+    margin:20px 0;
+}
+p{
+    color: hsla(0, 0%, 100%, 0.75);
+    Family: [Big Shoulders Display](https://fonts.google.com/specimen/Big+Shoulders+Display)
+
+}
+.btn{
+    margin:60px 0;
+    padding:15px 40px;
+    border:0;
+    border-radius: 30px;
+    outline: none;
+    background-color: #fff;
+    font-size: 15px;
+    cursor: pointer;
+     Family: [Lexend Deca](https://fonts.google.com/specimen/Lexend+Deca);
+     font-weight:700;
+}
+.button1{
+    color: hsl(31, 77%, 52%);
+}
+.button2{
+    color: hsl(184, 100%, 22%);
+}
+.button3{
+    color: hsl(179, 100%, 13%);
+
+}
+
+    
